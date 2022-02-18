@@ -40,3 +40,7 @@ compile_data_attr = "glob([\"**/*.der\"])"
 [workspace.metadata.raze.crates.webpki.'*']
 compile_data_attr = "glob([\"**/*.der\"])"
 
+[workspace.metadata.raze.crates.cbindgen.'*']
+extra_aliased_targets = [
+    "cargo_bin_cbindgen"
+]

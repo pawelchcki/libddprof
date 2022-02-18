@@ -44,6 +44,7 @@ cargo_build_script(
     },
     crate_features = [
         "cfg",
+        "consoleapi",
         "errhandlingapi",
         "evntrace",
         "fileapi",
@@ -60,6 +61,7 @@ cargo_build_script(
         "namedpipeapi",
         "ntdef",
         "ntsecapi",
+        "processenv",
         "profileapi",
         "std",
         "synchapi",
@@ -98,6 +100,7 @@ rust_library(
     srcs = glob(["**/*.rs"]),
     crate_features = [
         "cfg",
+        "consoleapi",
         "errhandlingapi",
         "evntrace",
         "fileapi",
@@ -114,6 +117,7 @@ rust_library(
         "namedpipeapi",
         "ntdef",
         "ntsecapi",
+        "processenv",
         "profileapi",
         "std",
         "synchapi",

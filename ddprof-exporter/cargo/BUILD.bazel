@@ -22,6 +22,24 @@ alias(
 )
 
 alias(
+    name = "cargo_bin_cbindgen",
+    actual = "@raze__cbindgen__0_20_0//:cargo_bin_cbindgen",
+    tags = [
+        "cargo-raze",
+        "manual",
+    ],
+)
+
+alias(
+    name = "cbindgen",
+    actual = "@raze__cbindgen__0_20_0//:cbindgen",
+    tags = [
+        "cargo-raze",
+        "manual",
+    ],
+)
+
+alias(
     name = "chrono",
     actual = "@raze__chrono__0_4_19//:chrono",
     tags = [
